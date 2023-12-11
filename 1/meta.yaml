@@ -1,0 +1,22 @@
+package:
+  name: hw_02_1
+  version: "1.0"
+
+source:
+  git_rev: latest
+  git_url: https://github.com/GitFEliS/PY_HW_02/1
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - hw_02_1
+
+about:
+  home: https://github.com/GitFEliS/PY_HW_02
